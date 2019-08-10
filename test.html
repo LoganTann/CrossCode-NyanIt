@@ -2,52 +2,14 @@
 
 <head>
 	<title>test frame</title>
-	<style>
-  body{background: blue;}
-	.frame {
-    image-rendering: pixelated;
-    background: url("47frames.png");
-    background-size: cover;
-    animation: moveY 3s steps(47) infinite;
-  }
-  @keyframes moveY{
-    0%{background-position-y:0%;}
-    100%{background-position-y:100%;}
-  }
-  .container {
-    display: flex;
-    flex-wrap: wrap;
-
-  }
-</style><style>
-  .size1{
-    width: 50px;
-    height: 28px;
-  }
-  .size2{
-    width: 73px;
-    height: 41px;
-  }
-  .size3{
-    width: 100px;
-    height: 56px;
-  }
-  .size4{
-    width: 178px;
-    height: 100px;
-  }
-  .size5{
-    width: 300px;
-    height: 168px;
-  }
-	</style>
+  <link href="main.css" rel="stylesheet"/>
 </head>
 <body>
-	<div class="container">
-		<div class="frame size1"></div>
-    <div class="frame size2"></div>
-    <div class="frame size3"></div>
-    <div class="frame size4"></div>
-    <div class="frame size5"></div>
+	<div id="nyanContainer">
+		<div class="size1"></div>
+    <div class="size2"></div>
+    <div class="size3"></div>
+    <div class="size4"></div>
+    <div class="size5"></div>
 	</div>
 </body>
