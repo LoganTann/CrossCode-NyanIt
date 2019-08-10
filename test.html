@@ -1,0 +1,51 @@
+<html>
+
+<head>
+	<title>test frame</title>
+	<style>
+  body{background: blue;}
+	.frame {
+    background: url("50fps.png");
+    background-size: cover;
+    animation: moveY 3s steps(49) infinite;
+  }
+  .size1{
+    width: 50px;
+    height: 28px;
+  }
+  .size2{
+    width: 73px;
+    height: 41px;
+  }
+  .size3{
+    width: 100px;
+    height: 56px;
+  }
+  .size4{
+    width: 178px;
+    height: 100px;
+  }
+  .size5{
+    width: 300px;
+    height: 168px;
+  }
+  @keyframes moveY{
+    0%{background-position-y:0%;}
+    100%{background-position-y:100%;}
+  }
+  .container {
+    display: flex;
+    flex-wrap: wrap;
+
+  }
+	</style>
+</head>
+<body>
+	<div class="container">
+		<div class="frame size1"></div>
+    <div class="frame size2"></div>
+    <div class="frame size3"></div>
+    <div class="frame size4"></div>
+    <div class="frame size5"></div>
+	</div>
+</body>
