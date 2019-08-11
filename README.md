@@ -4,7 +4,7 @@ version : 1.0
 
 ## Known issues : 
 
-* "This mod is everything that you shouldn't do all in one package."
+* "This mod is everything that you shouldn't do all" in one package.
 
 ## Todo : 
 
