@@ -1,5 +1,5 @@
 {
-     "main" : "mod_init.js",
+     "prestart" : "mod_init.js",
      "name" : "NyanIt CrossCode",
      "description" : "WTF IS THE INTERNET ???!!!"
 }
